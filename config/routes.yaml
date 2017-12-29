@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    defaults: { _controller: 'App\Controller\DefaultController::index' }
+index:
+  path: /
+  controller: App\Controller\DoubleController::test
+double:
+  path: /double/{a}
+  controller: App\Controller\DoubleController::test
